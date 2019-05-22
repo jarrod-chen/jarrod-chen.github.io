@@ -55,8 +55,8 @@ kramdown:
 
 
 # 评论系统
-#Disqus（https://disqus.com/）
-#disqus_username: jarrod-chen
+#Disqus (https://disqus.com/）
+disqus_username: jarrod-chen
 
 #  Gitalk
 #  gitalk:
