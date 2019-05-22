@@ -50,13 +50,13 @@ wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/
 
 也需要设置 Kcptun 的服务端端口（可以随便设置一个没被占用的端口）、被加速的端口（上面配置的Shadowsock端口）、被加速IP（本机地址127.0.0.1）、密码，其他的可以默认。最后也会生成配置信息，也需要保存一下，后面配置客户端（window、手机）方便一些。
 
-#####3.2.2查看配置
+##### 3.2.2查看配置
 
 ```shell
 vi /usr/local/kcptun/server-config.json
 ```
 
-#####3.2.3客户端配置
+##### 3.2.3客户端配置
 
 1.先到下载一个启动 Kcptun 的工具。请注意，这只是用来启动 Kcptun 的工具，而不是 Kcptun 客户端。
 
