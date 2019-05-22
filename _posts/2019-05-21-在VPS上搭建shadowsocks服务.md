@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      在VPS上搭建shadowsocks服务
+subtitle:   
+date:       2019-05-21
+author:     Jarrod
+header-img: img/post-bg-desk.jpg
+catalog: true
+tags:
+    - 梯子
+---
 # 2019-05-21-在VPS上搭建shadowsocks服务
 
 ### 1.一台VPS
