@@ -60,7 +60,7 @@ kramdown:
 
 #  Gitalk
 gitalk:
-  enable: false #是否开启Gitalk评论
+  enable: true #是否开启Gitalk评论
   clientID: cb41f24451df4a2361a8                            #生成的clientID
   clientSecret: 07a59144a615589b9903a9fac9ca98b6daf0519f    #生成的clientSecret
   repo: jarrod-chen.github.io    #仓库名称
