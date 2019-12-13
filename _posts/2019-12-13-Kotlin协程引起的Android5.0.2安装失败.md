@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      Kotlin协程引起的Android5.0.2安装失败
@@ -10,6 +9,7 @@ catalog: true
 tags:
     - Android 
     - kotlin
+---
 # Kotlin协程引起的Android5.0.2安装失败
 ## 问题
 红米Note3 Android5.0.2版本测试机上，App安装不上。
