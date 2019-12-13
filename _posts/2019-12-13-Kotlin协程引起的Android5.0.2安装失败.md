@@ -22,7 +22,7 @@ tags:
  * C moudle是一个只有kotlin代码的库
 4. 在还原buildToolVersion后依然不能正常安装，version.gradle应该是不会影响到安装的
 5. 在仔细比对C moudle的build.gradle和app moudle的build有什么不同时发现唯一大的不同之处就是kotlin协程的使用，抱着试一试的态度，去掉协程的使用确实在红米上能安装了。
-6. Google了kotlin协程会引起安装问题，果不其然官网上有反馈，也是Android 5.0.2
+6. Google了kotlin协程会引起安装问题，果不其然官网上有反馈，也是Android 5.0.2     见：https://discuss.kotliner.cn/t/topic/812
 
 ## 解决
 kotlin协程在C moudle中并没有大面积使用，而是用在了一个倒计时功能，所以就找到对应得开发改了实现方式，抛弃了协程
