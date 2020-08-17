@@ -105,7 +105,7 @@ Duplicate class android.support.v4.app.INotificationSideChannel found in modules
 
   如果使用的Android Studio版本是3.2以上的，可以通过使用Refactor功能菜单里的Migrate to AndroidX选项去更新代码。这是官方最推荐你的方案，因为Android Studio 可以在重构时会自动检查源码。
 
-  ![img](https:////upload-images.jianshu.io/upload_images/1795966-79a8500dcd42e28a.png?imageMogr2/auto-orient/strip|imageView2/2/w/559/format/webp)
+  ![img](https://raw.githubusercontent.com/jarrod-chen/jarrod-chen.github.io/master/img/post_20200816_androidx.webp)
 
   如果不是使用Android Studio开发或者项目结构太复杂导致使用Migrate to AndroidX选项无法涵盖。则可以利用类映射csv文件（在官方文档 [支持库类映射](https://developer.android.google.cn/jetpack/androidx/migrate/class-mappings) 中可查看或下载） ，手动实现查找和替换。将项目中Support Library中的类引用修改成AndroidX中对应的类。
 
